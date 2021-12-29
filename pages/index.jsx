@@ -64,7 +64,7 @@ export default function Home() {
         <textarea readOnly={true} value={result} />
 
         <p>
-          Once you click either "Submit" button, a request will be made to
+          Once you click either &quot;Submit&quot; button, a request will be made to
           the API (at /api/submit) of this website. The response will be
           displayed in the textarea.
         </p>
@@ -75,8 +75,8 @@ export default function Home() {
         </p>
         <p>
           Note that the url-encoded version converts every field into a
-          string, but that's inevitable, so I'm not concerned with that. The
-          multipart version, on the other hand, doesn't work at all.
+          string, but that&apos;s inevitable, so I&apos;m not concerned with that. The
+          multipart version, on the other hand, doesn&apos;t work at all.
         </p>
       </form>
     </main>
